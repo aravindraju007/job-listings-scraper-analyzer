@@ -67,28 +67,30 @@ To scrape job listings from Indeed, run the `scraper.py` script:
 
 ```bash
 python scraping/scraper.py
-
+```
 
 This will save the raw job listings data to data/job_listings_raw.csv.
 
-**Data Analysis**
+### Data Analysis
 For data analysis and insights, run the analyze.py script or open the analysis.ipynb Jupyter notebook:
 
-Running the script: python analysis/analyze.py
+```Running the script: python analysis/analyze.py
 Running the Jupyter notebook: jupyter notebook analysis/analysis.ipynb
+```
 
-Visualizations
+### Visualizations
 To generate visualizations, run the respective Python scripts:
 
-Charts: python visualizations/charts.py
+```Charts: python visualizations/charts.py
 
 Location Map: python visualizations/location_map.py
 
 Word Cloud: python visualizations/wordcloud.py
+```
 
 These scripts will generate visualizations like bar charts, maps, and word clouds to give insights into the job market trends.
 
-Contributing
+### Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests
 
