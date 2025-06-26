@@ -1,1 +1,35 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment folders
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/*.csv
+data/*.xlsx
+
+# Logs
+*.log
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files (for security)
+.env
+*.env
+
+# GitHub's default files
+*.swp
 
